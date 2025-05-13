@@ -6,7 +6,7 @@ MY_LAT = 12.902369
 MY_LONG = 77.562295 
 
 email = "anirudhmulky@gmail.com"
-password = "nwcxmdexmhrjysse"
+password = "****************"
 
 def is_overhead():
 
