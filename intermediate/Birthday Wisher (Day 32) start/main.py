@@ -1,7 +1,7 @@
 # import smtplib
 
 # my_email = "anirudhmulky@gmail.com"
-# password = "nwcxmdexmhrjysse"
+
 
 # connection = smtplib.SMTP("smtp.gmail.com")
 # connection.starttls()    #for encryption
@@ -16,7 +16,7 @@ now = dt.datetime.now()
 weekday = now.weekday()
 
 email = "anirudhmulky@gmail.com"
-password = "nwcxmdexmhrjysse"
+password = "************8"
 
 if weekday == 0:
     with open("quotes.txt") as quotes:
@@ -26,7 +26,7 @@ if weekday == 0:
     connection = smtplib.SMTP("smtp.gmail.com")
     connection.starttls()
     connection.login(user=email,password=password)
-    connection.sendmail(from_addr=email,to_addrs="manasarao54747@gmail.com", msg=f"Subject:Motivation\n\n{quote}")
+    connection.sendmail(from_addr=email,to_addrs="xyz@gmail.com", msg=f"Subject:Motivation\n\n{quote}")
     connection.close()
 
 
