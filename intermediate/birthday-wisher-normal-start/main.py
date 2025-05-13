@@ -4,7 +4,7 @@ import pandas
 import smtplib
 
 email = "anirudhmulky@gmail.com"
-password = "nwcxmdexmhrjysse"
+password = "*************"
 
 
 today = (dt.datetime.now().month,dt.datetime.now().day)
